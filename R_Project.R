@@ -11,3 +11,4 @@ data1 <- data1 %>%
   pivot_longer(-Time, names_to = "Well", values_to = "OD")
 
 #Step 3
+#add a new line
