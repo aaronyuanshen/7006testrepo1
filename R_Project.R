@@ -10,3 +10,4 @@ data1 <- data1 %>%
   mutate(Time = Time / 60) %>%
   pivot_longer(-Time, names_to = "Well", values_to = "OD")
 
+#Step 3
